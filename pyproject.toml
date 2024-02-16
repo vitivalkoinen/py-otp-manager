@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "otp-manager"
+version = "0.1.0"
+description = ""
+authors = ["Valkoinen Viti <if.snow.else.neige@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyotp = "^2.9.0"
+cryptography = "^42.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
